@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="src/img/index/Fudo..png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="authenticate">
+                <img src="src/img/index/Cart.png" alt="">
+                <button id="signin"><a href="signin.html">Sign In</a></button>
+                <button id="signup"><a href="signup.html">Sign Up</a></button>
+            </div>
+        </header>
+        <main>
+            <div class="banner">
+                <div class="fastest">
+                    <button id="quality-food">Quality Food</button> <br>
+                    <img src="src/img/index/Fastest Delivery & Easy Pickup.png" alt="">
+                    <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60
+                        minutes.</p>
+                    <input type="text" placeholder="Enter your delivery location">
+                    <button id="discover">Discover</button>
+                </div>
+                <div class="sub-banner">
+                    <img src="src/img/index/Banner.png" alt="">
+                </div>
+            </div>
+            <div class="popular-products">
+                <div class="popular">
+                    <h1>Our Popular Dishes</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br>
+                        labore
+                        et dolore magna aliqut enim ad minim </p>
+                </div>
+                <select name="" id="filter">
+                    <option value="" hidden>Lọc giá</option>
+                    <option value="all">Hiển thị tất cả</option>
+                    <option value="under30">Dưới 30</option>
+                    <option value="over30">Trên 30</option>
+                </select>
+                <div class="products">
+                    <!-- <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/Humburger.jpg" alt=""></a>
+                        <p>Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Snack</span>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/Fish.jpg" alt=""></a>
+                        <p>Fresh Lime Roasted Salmon</p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Fish</span>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/Chicken.jpg" alt=""></a>
+                        <p>The Best Easy One Pot Chicken and Rice</p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Snack</span>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/Eat.jpg" alt=""></a>
+                        <p>Fresh and Healthy Mixed Mayonnaise </p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Healthy</span>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/noodle.jpg" alt=""></a>
+                        <p>The Creamiest Creamy Chicken</p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Noodles</span>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <a href="detail.html"><img src="src/img/index/fruit.jpg" alt=""></a>
+                        <p>Fruity Pancake with Orange & Blueberry</p>
+                        <div class="intro">
+                            <img src="src/img/index/Timer.png" alt=""> <span id="mins">30 Minutes</span>
+                            <img src="src/img/index/ForkKnife.png" alt="">
+                            <span>Sweet</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="category">
+                <div class="categories">
+                    <h1>Categories</h1>
+                    <button>View All Categories</button>
+                </div>
+                <div class="categoties-list">
+                    <!-- <div class="category-list">
+                        <img src="src/img/index/Breakfast.jpg" alt="">
+                        <p>Breakfast</p>
+                    </div>
+                    <div class="category-list">
+                        <img src="src/img/index/Vegan.jpg" alt="">
+                        <p>Vegan</p>
+                    </div>
+                    <div class="category-list">
+                        <img src="src/img/index/Meat.jpg" alt="">
+                        <p>Meat</p>
+                    </div>
+                    <div class="category-list">
+                        <img src="src/img/index/Dessert.jpg" alt="">
+                        <p>Dessert</p>
+                    </div>
+                    <div class="category-list">
+                        <img src="src/img/index/Lunch.jpg" alt="">
+                        <p>Lunch</p>
+                    </div>
+                    <div class="category-list">
+                        <img src="src/img/index/Chocolate.jpg" alt="">
+                        <p>Chocolate</p>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class="contact">
+                <h1>Contact us</h1>
+                <div class="show-error"></div>
+                <form action="">
+                    <div class="form-list">
+                        <div class="name">
+                            <p>NAME</p>
+                            <input type="text" id="name" placeholder="Enter your name...">
+                        </div>
+                        <div class="name">
+                            <p>EMAIL ADDRESS</p>
+                            <input type="text" id="email" placeholder="Your email address...">
+                        </div>
+                        <div class="name">
+                            <p>Subject</p>
+                            <input type="text" id="subject" placeholder="Enter subject...">
+                        </div>
+                        <div class="name">
+                            <p>ENquiry type</p>
+                            <select name="" id="enquiry">
+                                <option value="Advertising">Advertising</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mess">
+                        <p>MEssages</p>
+                        <input type="text" id="message" placeholder="Enter your messages...">
+                    </div>
+
+                    <div class="submit">
+                        <button type="submit" id="btn-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            <div class="logo">
+                <img src="src/img/index/Fudo..png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="src/js/contact.js"></script>
+</body>
+
+</html>

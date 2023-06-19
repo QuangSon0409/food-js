@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1280px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin: 0 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5D5D5D;
+}
+
+.menu li {
+    display: inline-block;
+}
+.menu ul li:hover a{
+    text-decoration: underlines;
+}
+.authenticate {
+    display: flex;
+    align-items: center;
+}
+#menu li:hover a{
+    text-decoration: underline;
+}
+#signin {
+    margin: 0 32px;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 12px;
+}
+#signin a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F54748;
+    text-decoration: none;
+}
+
+
+#signup {
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: #F54748;
+    padding: 12px;
+}
+#signup a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.banner img{
+    margin-top: 40px;
+    width: 100%;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 32px;
+}
+.list-products
+{
+    width: 20%;
+}.list-products ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.list-products ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.content-products{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+.product img{
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+}
+.product p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+.product span{
+    line-height: 16px;
+    color: black;
+    font-weight: 400;
+}
+#menu li:hover a{
+    color: #F54748;
+}
+#menu li a{
+    font-size: 20px;
+}
+hr{
+    margin: 64px 0;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

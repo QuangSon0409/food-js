@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/signin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="src/img/signin/Logo.png" alt="" />
+        </div>
+      </header>
+      <main>
+        <div class="title">
+          <span>Welcome back</span><br />
+          <p>Login to your account</p>
+        </div>
+        <form action="">
+          <div class="form">
+            <div class="email">
+              <p>Email</p>
+              <input
+                type="text"
+                id="email"
+                placeholder="John.snow@gmail.com"
+              /><br />
+              <span id="errorEmail"></span>
+            </div>
+            <div class="email">
+              <p>Password</p>
+              <input
+                type="password"
+                id="password"
+                placeholder="*********"
+              /><br />
+              <span id="errorPassword"></span>
+            </div>
+          </div>
+          <div class="password">
+            <button class="login" type="submit" id="btn-login">
+              Login now
+            </button>
+            <br />
+            <button class="signin">
+              <img
+                src="src/img/signin/iconfinder_Google_1298745 1.png"
+                alt=""
+              />Or sign-in with google
+            </button>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <p class="forgot"><a href="">Forgot password?</a></p>
+        <p class="account">
+          <a href="">Dont have an account?</a>
+          <span class="forgot-password"><a href="">Join free today</a></span>
+        </p>
+      </footer>
+    </div>
+    <script src="src/js/signin.js"></script>
+  </body>
+</html>

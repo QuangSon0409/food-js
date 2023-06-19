@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 130px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D3748;
+}
+
+.title p {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A202C;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.email {
+    margin-bottom: 40px;
+}
+
+.email p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 11px;
+}
+
+.email input {
+    padding: 17px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #37A9CD;
+    border-radius: 5px;
+}
+
+.login {
+    width: 400px;
+    height: 50px;
+    background: #37A9CD;
+    border-radius: 5px;
+    border: 1px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.signin {
+    width: 400px;
+    height: 50px;
+    background: #2D3748;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.signin img {
+    margin-right: 10px;
+    align-items: center;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37A9CD;
+}
+
+.account a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37A9CD;
+}
